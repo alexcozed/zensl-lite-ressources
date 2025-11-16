@@ -1,221 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Profiles>
-    <Profile>
-        <Settings>
-            <!-- Power Management Settings -->
-            <Setting>
-                <SettingName>PowerMizerDefaultAC</SettingName>
-                <SettingID>0x10D28C8</SettingID>
-                <SettingValue>1</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-            <Setting>
-                <SettingName>PowerMizerDefaultDC</SettingName>
-                <SettingID>0x10D28C9</SettingID>
-                <SettingValue>1</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-            <Setting>
-                <SettingName>PowerMizerEnable</SettingName>
-                <SettingID>0x10D28C0</SettingID>
-                <SettingValue>0</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-            <Setting>
-                <SettingName>PowerMizerDefaultAC_0</SettingName>
-                <SettingID>0x10D28D0</SettingID>
-                <SettingValue>1</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-            <Setting>
-                <SettingName>PowerMizerDefaultDC_0</SettingName>
-                <SettingID>0x10D28D1</SettingID>
-                <SettingValue>1</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-
-            <!-- Performance Settings -->
-            <Setting>
-                <SettingName>CudaForceP2State</SettingName>
-                <SettingID>0x10F9DC4</SettingID>
-                <SettingValue>0</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-            <Setting>
-                <SettingName>DisableCudaContextPreemption</SettingName>
-                <SettingID>0x10F9E3C</SettingID>
-                <SettingValue>1</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-            <Setting>
-                <SettingName>ForcePState</SettingName>
-                <SettingID>0x10F9DC0</SettingID>
-                <SettingValue>0</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-            <Setting>
-                <SettingName>ForcePowerMizerLevel</SettingName>
-                <SettingID>0x10F9DC1</SettingID>
-                <SettingValue>0</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-
-            <!-- 3D Settings for Gaming -->
-            <Setting>
-                <SettingName>TextureFilteringQuality</SettingName>
-                <SettingID>0x10F9DC8</SettingID>
-                <SettingValue>0</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-            <Setting>
-                <SettingName>TextureFilteringTrilinearOptimization</SettingName>
-                <SettingID>0x10F9DCA</SettingID>
-                <SettingValue>1</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-            <Setting>
-                <SettingName>TextureFilteringAnisotropicOptimization</SettingName>
-                <SettingID>0x10F9DC9</SettingID>
-                <SettingValue>1</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-            <Setting>
-                <SettingName>VerticalSync</SettingName>
-                <SettingID>0x10F9DD0</SettingID>
-                <SettingValue>0</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-            <Setting>
-                <SettingName>PreferredRefreshRate</SettingName>
-                <SettingID>0x10F9DD1</SettingID>
-                <SettingValue>0</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-            <Setting>
-                <SettingName>MultiDisplayMixedGPUMode</SettingName>
-                <SettingID>0x10F9DD2</SettingID>
-                <SettingValue>0</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-
-            <!-- Shader Cache Settings -->
-            <Setting>
-                <SettingName>ShaderCache</SettingName>
-                <SettingID>0x10F9DD8</SettingID>
-                <SettingValue>1</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-            <Setting>
-                <SettingName>ShaderCacheSize</SettingName>
-                <SettingID>0x10F9DD9</SettingID>
-                <SettingValue>1024</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-
-            <!-- Memory Management -->
-            <Setting>
-                <SettingName>MaxFrameLatency</SettingName>
-                <SettingID>0x10F9DE0</SettingID>
-                <SettingValue>1</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-            <Setting>
-                <SettingName>MaxFrameLatencyFlip</SettingName>
-                <SettingID>0x10F9DE1</SettingID>
-                <SettingValue>1</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-
-            <!-- Thermal Management -->
-            <Setting>
-                <SettingName>ThermalThrottleMinPerformance</SettingName>
-                <SettingID>0x10F9DE8</SettingID>
-                <SettingValue>100</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-            <Setting>
-                <SettingName>ThermalThrottlePerformanceCap</SettingName>
-                <SettingID>0x10F9DE9</SettingID>
-                <SettingValue>100</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-
-            <!-- Clock Speed Optimizations -->
-            <Setting>
-                <SettingName>GpuCoreClockBoost</SettingName>
-                <SettingID>0x10F9DF0</SettingID>
-                <SettingValue>100</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-            <Setting>
-                <SettingName>GpuMemoryClockBoost</SettingName>
-                <SettingID>0x10F9DF1</SettingID>
-                <SettingValue>100</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-
-            <!-- Performance Monitoring -->
-            <Setting>
-                <SettingName>PerfMonitoring</SettingName>
-                <SettingID>0x10F9DF8</SettingID>
-                <SettingValue>1</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-            <Setting>
-                <SettingName>PerfOverlay</SettingName>
-                <SettingID>0x10F9DF9</SettingID>
-                <SettingValue>0</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-
-            <!-- Threaded Optimization -->
-            <Setting>
-                <SettingName>ThreadedOptimization</SettingName>
-                <SettingID>0x10F9E00</SettingID>
-                <SettingValue>1</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-            <Setting>
-                <SettingName>ThreadedOptimizationMandelbrot</SettingName>
-                <SettingID>0x10F9E01</SettingID>
-                <SettingValue>1</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-
-            <!-- Low Latency Mode -->
-            <Setting>
-                <SettingName>LowLatencyMode</SettingName>
-                <SettingID>0x10F9E08</SettingID>
-                <SettingValue>1</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-            <Setting>
-                <SettingName>LowLatencyModeAuto</SettingName>
-                <SettingID>0x10F9E09</SettingID>
-                <SettingValue>0</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-
-            <!-- Power Management -->
-            <Setting>
-                <SettingName>BatteryBoost</SettingName>
-                <SettingID>0x10F9E10</SettingID>
-                <SettingValue>0</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-            <Setting>
-                <SettingName>BatteryBoostPerformance</SettingName>
-                <SettingID>0x10F9E11</SettingID>
-                <SettingValue>100</SettingValue>
-                <SettingType>Dword</SettingType>
-            </Setting>
-        </Settings>
-        <ProfileName>ZenSL Optimized Gaming Profile</ProfileName>
-        <ProfileDescription>Optimized for maximum gaming performance with balanced power consumption</ProfileDescription>
-        <ProfileVersion>1.0</ProfileVersion>
-        <ProfileAuthor>ZenSL Optimizer</ProfileAuthor>
-        <ProfileDate>2024-11-16</ProfileDate>
-        <ProfileTarget>Gaming Performance</ProfileTarget>
-        <ProfileCompatibility>All NVIDIA GPUs</ProfileCompatibility>
-    </Profile>
-</Profiles>
+﻿<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfProfile>
+  <Profile>
+    <ProfileName>Base Profile</ProfileName>
+    <Executeables />
+    <Settings>
+      <ProfileSetting>
+        <SettingNameInfo>Preferred refresh rate</SettingNameInfo>
+        <SettingID>6600001</SettingID>
+        <SettingValue>1</SettingValue>
+        <ValueType>Dword</ValueType>
+      </ProfileSetting>
+      <ProfileSetting>
+        <SettingNameInfo>Ambient Occlusion</SettingNameInfo>
+        <SettingID>6714153</SettingID>
+        <SettingValue>1</SettingValue>
+        <ValueType>Dword</ValueType>
+      </ProfileSetting>
+      <ProfileSetting>
+        <SettingNameInfo>Maximum pre-rendered frames</SettingNameInfo>
+        <SettingID>8102046</SettingID>
+        <SettingValue>1</SettingValue>
+        <ValueType>Dword</ValueType>
+      </ProfileSetting>
+      <ProfileSetting>
+        <SettingNameInfo>Texture filtering - Quality</SettingNameInfo>
+        <SettingID>13510289</SettingID>
+        <SettingValue>20</SettingValue>
+        <ValueType>Dword</ValueType>
+      </ProfileSetting>
+      <ProfileSetting>
+        <SettingNameInfo>Virtual Reality pre-rendered frames</SettingNameInfo>
+        <SettingID>269553971</SettingID>
+        <SettingValue>0</SettingValue>
+        <ValueType>Dword</ValueType>
+      </ProfileSetting>
+      <ProfileSetting>
+        <SettingNameInfo>Power management mode</SettingNameInfo>
+        <SettingID>274197361</SettingID>
+        <SettingValue>1</SettingValue>
+        <ValueType>Dword</ValueType>
+      </ProfileSetting>
+      <ProfileSetting>
+        <SettingNameInfo>FRL Low Latency</SettingNameInfo>
+        <SettingID>277041152</SettingID>
+        <SettingValue>1</SettingValue>
+        <ValueType>Dword</ValueType>
+      </ProfileSetting>
+      <ProfileSetting>
+        <SettingNameInfo>Threaded optimization</SettingNameInfo>
+        <SettingID>549528094</SettingID>
+        <SettingValue>1</SettingValue>
+        <ValueType>Dword</ValueType>
+      </ProfileSetting>
+      <ProfileSetting>
+        <SettingNameInfo>Use the 3D application setting</SettingNameInfo>
+        <SettingID>272314421</SettingID>
+        <SettingValue>1</SettingValue>
+        <ValueType>Dword</ValueType>
+      </ProfileSetting>
+    </Settings>
+  </Profile>
+</ArrayOfProfile>
